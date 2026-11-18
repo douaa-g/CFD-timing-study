@@ -1,0 +1,20 @@
+{
+ "events": 400,
+ "hits_rtl": 401,
+ "bit_exact_vs_python_model": true,
+ "events_with_exactly_one_hit": 399,
+ "rms_ps": {
+  "float_unquantised": 47.592046956868124,
+  "float_12bit_quantised": 47.61746270753185,
+  "rtl_fixed_point": 47.75364097353458
+ },
+ "params": {
+  "fs_GSps": 1.0,
+  "snr": 100,
+  "D": 6,
+  "K": 3,
+  "THR_LSB": 90,
+  "HOLD": 16,
+  "amax_LSB": 1500
+ }
+}
