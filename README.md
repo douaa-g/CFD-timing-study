@@ -2,7 +2,7 @@
 
 Preliminary study of the *principle* of CFD timing for digitised detector pulses (time-of-flight use case).
 Pulses are simulated (illustrative bi-exponential shape, 2 ns rise / 20 ns decay), so the numbers are not
-those of any real detector. Author: Douaa Guermassi. : ![CFD principle](figures/fig0_principle.png)
+those of any real detector. Author: Douaa Guermassi. ![CFD principle](figures/fig0_principle.png)
 
 ## Results (single-channel timing rms; the best parameters are picked on one event set and reported on held-out events)
 
