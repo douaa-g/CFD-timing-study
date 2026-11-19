@@ -2,7 +2,7 @@
 
 Preliminary study of the *principle* of CFD timing for digitised detector pulses (time-of-flight use case).
 Pulses are simulated (illustrative bi-exponential shape, 2 ns rise / 20 ns decay), so the numbers are not
-those of any real detector. Author: Douaa Guermassi.
+those of any real detector. Author: Douaa Guermassi. : ![CFD principle](figures/fig0_principle.png)
 
 ## Results (single-channel timing rms; the best parameters are picked on one event set and reported on held-out events)
 
@@ -12,6 +12,8 @@ those of any real detector. Author: Douaa Guermassi.
 | 1 GS/s, SNR 100 | 194 ps | 47 ps (f = 3/8, d = 6 ns) |
 | 1 GS/s, SNR 30 / 500 | 324 / 184 ps | 135 / 23 ps |
 | SNR 100, 250 MS/s / 4 GS/s | 859 / 93 ps | 372 / 31 ps |
+
+![Time walk](figures/fig1_walk.png)
 
 RTL check (400 events, 12-bit quantised, 1 GS/s, SNR 100): the Verilog output is bit-exact against the Python
 fixed-point model; 399/400 events give exactly one hit; timing rms 47.8 ps (RTL) vs 47.6 ps (float).
